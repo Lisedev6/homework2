@@ -1,0 +1,86 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+header {
+    background-color: rgb(214, 241, 61);
+    display: grid;
+    /* justify-content: center;
+    align-items: center; */
+    /* height: 100px; */
+}
+header img{
+    width: 10%;
+    position: relative;
+    top: 20px;
+}
+
+nav {
+    background-color: rgb(214, 241, 61);
+    display: inline-block;
+    width: 80%;
+}
+/* nav img {
+    width: 10%;
+    position: relative;
+    top: 20px;
+} */
+
+main {
+    background-color: bisque;
+    font-size: medium;
+    min-height: 100px;
+}
+
+footer{
+    background-color: rgb(168, 166, 166);
+}
+
+li {
+    background-color: bisque;
+    display: block;
+    width: 200;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(25, 3, 104);
+}
+
+p {
+    line-height: 100%;
+}
+
+/*a {
+    text-decoration: none;
+}*/
+nav a {
+    text-decoration: none;
+}
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.current {
+    text-transform: uppercase;
+    background-color: lightgray;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    /*gap: 20px; Adds space between columns */
+    justify-content: space-between; /* Centers the grid items horizontally */
+    align-items: center; /* Aligns items vertically within their grid cells */
+    row-gap: 20px;
+}
+.grid img {
+    width: 100%;
+}
